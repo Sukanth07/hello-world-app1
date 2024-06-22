@@ -2,7 +2,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/hello-world-app1')
+@app.route('/hello-world-app1/')
 def hello_world():
     return 'Hello World - Flask App 1'
 
